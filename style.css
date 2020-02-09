@@ -1,3 +1,70 @@
-* {
-    font: 12px sans-serif;
+@import './_utils.css';
+:root {
+    --main-color: #98CA3F;
+    --secondary-color: ; 
+    --title-color: #D2D2D2;
+    --copy-color: #54565A; 
 }
+
+html {
+    margin: 0;
+    font-family: Arial;
+}
+
+.banner-principal {
+    background-image: url(assets/pizza-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 30rem;
+}
+
+.logomarca {
+    max-width: 40%;
+}
+
+.products {
+    background-image: url(assets/FEATURE.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card-body span {
+    color: var(--main-color);
+}
+.testimonials {
+    background-image: url(/assets/TESTIMONIAL.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.testimonials-copy h6 {
+    font-size: 0.75rem;
+    line-height: 0ch;
+}
+
+.testimonials-photo img {
+    width:  20rem;
+}
+
+.footer-logo img {
+    width: 15rem;
+}
+
+.social-links i {
+    font-size: 2rem;
+}
+
+.bg-platzi-main {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+.bg-platzi-main:hover {
+    background-color: rgb(109, 146, 45);
+    border-color: rgb(109, 146, 45);
+}
+
+
